@@ -1,6 +1,6 @@
 """Configuration management for RAG Expert System"""
 import os
-from typing import Optional
+from typing import Optional, Union
 from pydantic import Field
 from pydantic_settings import BaseSettings
 from dotenv import load_dotenv
@@ -17,6 +17,13 @@ class Settings(BaseSettings):
     weaviate_url: str = Field(default="http://localhost:8080", env="WEAVIATE_URL")
     weaviate_api_key: Optional[str] = Field(default=None, env="WEAVIATE_API_KEY")
     cohere_api_key: Optional[str] = Field(default=None, env="COHERE_API_KEY")
+    
+    # LLM Configuration
+    temperature: Union[float, str] = Field(default=0.7, env="TEMPERATURE")
+    max_tokens: Union[int, str] = Field(default=1000, env="MAX_TOKENS")
+    
+    # Anthropic Configuration
+    anthropic_api_key: Optional[str] = Field(default=None, env="ANTHROPIC_API_KEY")
     
     # Free API Keys
     groq_api_key: Optional[str] = Field(default=None, env="GROQ_API_KEY")
@@ -38,9 +45,17 @@ class Settings(BaseSettings):
     groq_model: str = Field(default="llama-3.1-8b-instant", env="GROQ_MODEL")
     
     # Document Processing
-    chunk_size: int = Field(default=1000, env="CHUNK_SIZE")
-    chunk_overlap: int = Field(default=200, env="CHUNK_OVERLAP")
-    max_chunks_per_query: int = Field(default=5, env="MAX_CHUNKS_PER_QUERY")
+    chunk_size: Union[int, str] = Field(default=1000, env="CHUNK_SIZE")
+    chunk_overlap: Union[int, str] = Field(default=200, env="CHUNK_OVERLAP")
+    use_semantic_chunking: Union[bool, str] = Field(default=True, env="USE_SEMANTIC_CHUNKING")
+    max_chunks_per_query: Union[int, str] = Field(default=5, env="MAX_CHUNKS_PER_QUERY")
+    
+    # Retrieval Settings
+    retrieval_method: str = Field(default="hybrid", env="RETRIEVAL_METHOD")
+    
+    # Embedding Configuration
+    embedding_provider: str = Field(default="openai", env="EMBEDDING_PROVIDER")
+    embedding_dimension: Union[int, str] = Field(default=1536, env="EMBEDDING_DIMENSION")
     
     # Logging
     log_level: str = Field(default="INFO", env="LOG_LEVEL")
@@ -53,6 +68,7 @@ class Settings(BaseSettings):
     class Config:
         env_file = ".env"
         case_sensitive = False
+        extra = "ignore"  # Ignore extra fields not defined in the model
 
 
 # Global settings instance
