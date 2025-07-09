@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  rag-system:
+    build: .
+    ports:
+      - "8501:8501"  # Streamlit
+      - "8000:8000"  # FastAPI
+    environment:
+      - OPENAI_API_KEY=not_needed_for_local
+      - VECTOR_STORE_TYPE=chroma
+      - EMBEDDING_MODEL=sentence-transformers
+      - LLM_MODEL=huggingface_local
+      - USE_LOCAL_MODEL=true
+      - LOCAL_MODEL_NAME=microsoft/DialoGPT-medium
+      - CHUNK_SIZE=1000
+      - CHUNK_OVERLAP=200
+      - MAX_CHUNKS_PER_QUERY=5
+      - LOG_LEVEL=INFO
+      - ENABLE_AUDIT_LOGS=true
+      - ANONYMIZE_QUERIES=false
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./chroma_db_general:/app/chroma_db_general
+      - ./chroma_db_healthcare:/app/chroma_db_healthcare
+      - ./chroma_db_legal:/app/chroma_db_legal
+      - ./chroma_db_financial:/app/chroma_db_financial
+    command: >
+      bash -c "
+        python -m uvicorn api:app --host 0.0.0.0 --port 8000 &
+        streamlit run app.py --server.port 8501 --server.address 0.0.0.0
+      "
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501"]
+      interval: 30s
+      timeout: 10s
+      retries: 3

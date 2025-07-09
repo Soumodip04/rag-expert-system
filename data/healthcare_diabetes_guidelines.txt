@@ -1,0 +1,40 @@
+Healthcare Guidelines for Diabetes Management
+
+Type 2 Diabetes Treatment Protocol
+
+According to the American Diabetes Association 2023 guidelines, the management of Type 2 diabetes involves a comprehensive approach including lifestyle modifications, medication management, and regular monitoring.
+
+First-Line Treatment:
+- Metformin is the preferred initial medication for most patients with type 2 diabetes
+- Start with 500mg twice daily with meals
+- Can be increased to maximum dose of 2000mg daily if tolerated
+
+Blood Glucose Targets:
+- HbA1c: Less than 7% for most adults
+- Fasting glucose: 80-130 mg/dL
+- Post-meal glucose: Less than 180 mg/dL
+
+Lifestyle Modifications:
+- Weight loss of 5-10% if overweight
+- Regular physical activity: 150 minutes moderate exercise per week
+- Mediterranean diet or DASH diet recommended
+- Smoking cessation if applicable
+
+Monitoring Requirements:
+- HbA1c every 3-6 months
+- Blood pressure at every visit
+- Lipid profile annually
+- Kidney function (eGFR, microalbumin) annually
+- Eye exam annually
+- Foot exam at every visit
+
+Complications Management:
+- Cardiovascular disease: Consider SGLT2 inhibitors or GLP-1 agonists
+- Chronic kidney disease: ACE inhibitors or ARBs preferred
+- Diabetic retinopathy: Immediate ophthalmology referral
+- Diabetic neuropathy: Gabapentin or pregabalin for neuropathic pain
+
+Emergency Situations:
+- Diabetic ketoacidosis: Immediate hospitalization required
+- Severe hypoglycemia: Glucagon administration, call 911
+- HbA1c > 10%: Intensify therapy immediately

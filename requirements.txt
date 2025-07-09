@@ -1,0 +1,59 @@
+# Core LLM and RAG frameworks
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+openai>=1.30.0
+
+# Vector stores and embeddings
+chromadb>=0.5.0
+pinecone-client>=5.0.0
+weaviate-client>=4.0.0
+sentence-transformers>=2.7.0
+transformers>=4.40.0
+
+# Document processing and chunking
+pypdf2>=3.0.0
+docx2txt>=0.8
+beautifulsoup4>=4.12.0
+tiktoken>=0.7.0
+spacy>=3.7.0
+
+# Additional document format support
+openpyxl>=3.1.0
+xlrd>=2.0.0
+python-pptx>=0.6.0
+striprtf>=0.0.26
+lxml>=4.9.0
+PyYAML>=6.0
+ebooklib>=0.18
+python-docx>=0.8.11
+odfpy>=1.4.0
+
+# Hybrid search and semantic splitting
+rank-bm25>=0.2.0
+nltk>=3.8.0
+textstat>=0.7.0
+
+# Web framework and API
+fastapi>=0.110.0
+uvicorn>=0.29.0
+streamlit>=1.32.0
+
+# Utilities and monitoring
+python-dotenv>=1.0.0
+pydantic>=2.7.0
+loguru>=0.7.0
+pandas>=2.2.0
+numpy>=1.26.0
+plotly>=5.20.0
+
+# Local model support
+ctransformers>=0.2.0
+huggingface-hub>=0.23.0
+cohere>=5.0.0
+anthropic>=0.25.0
+
+# Development and testing
+pytest>=8.0.0
+black>=24.0.0
+flake8>=7.0.0

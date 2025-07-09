@@ -1,0 +1,65 @@
+Legal Contract Analysis Framework
+
+Employment Contract Key Provisions
+
+This document outlines the essential elements that must be present in employment contracts to ensure legal compliance and protection for both employers and employees.
+
+Essential Contract Elements:
+1. Job Title and Description
+   - Clear definition of role and responsibilities
+   - Reporting structure
+   - Location of work (remote, hybrid, or on-site)
+
+2. Compensation Structure
+   - Base salary or hourly wage
+   - Payment frequency (weekly, bi-weekly, monthly)
+   - Overtime policy and rates
+   - Bonus and commission structure
+
+3. Benefits Package
+   - Health insurance coverage
+   - Retirement plan contributions
+   - Paid time off (vacation, sick leave, personal days)
+   - Other benefits (life insurance, disability, etc.)
+
+4. Employment Terms
+   - Start date
+   - Employment type (full-time, part-time, contract)
+   - At-will employment clause (where applicable)
+   - Probationary period if any
+
+5. Confidentiality and Non-Disclosure
+   - Protection of company proprietary information
+   - Client and customer data protection
+   - Trade secrets and intellectual property
+
+6. Non-Compete and Non-Solicitation
+   - Geographic limitations
+   - Time restrictions (typically 6-24 months)
+   - Industry scope limitations
+   - Customer non-solicitation clauses
+
+7. Termination Provisions
+   - Notice period requirements
+   - Severance package terms
+   - Return of company property
+   - Final paycheck and benefit continuation
+
+Compliance Requirements:
+- Fair Labor Standards Act (FLSA) compliance
+- Equal Employment Opportunity Commission (EEOC) guidelines
+- State-specific employment laws
+- Industry-specific regulations
+
+Red Flags in Employment Contracts:
+- Overly broad non-compete clauses
+- Unclear compensation terms
+- Missing benefits information
+- Excessive confidentiality requirements
+- Unfair termination clauses
+
+Legal Review Recommendations:
+- Have all contracts reviewed by employment law attorney
+- Ensure state law compliance
+- Regular updates to reflect changing regulations
+- Employee acknowledgment and signature required

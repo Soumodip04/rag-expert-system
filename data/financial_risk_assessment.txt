@@ -1,0 +1,73 @@
+Financial Risk Assessment Guidelines
+
+Investment Portfolio Risk Management
+
+This document provides comprehensive guidelines for assessing and managing financial risks in investment portfolios according to modern portfolio theory and regulatory requirements.
+
+Risk Assessment Framework:
+
+1. Market Risk Analysis
+   - Systematic risk (cannot be diversified away)
+   - Unsystematic risk (company/industry specific)
+   - Value at Risk (VaR) calculations
+   - Stress testing scenarios
+
+2. Credit Risk Evaluation
+   - Counterparty credit ratings
+   - Default probability analysis
+   - Credit exposure limits
+   - Collateral requirements
+
+3. Liquidity Risk Management
+   - Asset liquidity classification
+   - Funding liquidity assessment
+   - Liquidity coverage ratios
+   - Emergency liquidity planning
+
+4. Operational Risk Controls
+   - Internal control systems
+   - Technology risk management
+   - Human error mitigation
+   - Business continuity planning
+
+Portfolio Diversification Strategies:
+- Asset class diversification (stocks, bonds, commodities, REITs)
+- Geographic diversification (domestic vs. international)
+- Sector diversification across industries
+- Market cap diversification (large, mid, small cap)
+- Time diversification (dollar-cost averaging)
+
+Risk Metrics and Monitoring:
+- Beta coefficient (market sensitivity)
+- Standard deviation (volatility measure)
+- Sharpe ratio (risk-adjusted returns)
+- Maximum drawdown analysis
+- Correlation coefficients between assets
+
+Regulatory Compliance:
+- SEC reporting requirements
+- FINRA suitability rules
+- Fiduciary duty standards
+- Anti-money laundering (AML) compliance
+- Know Your Customer (KYC) requirements
+
+Risk Tolerance Assessment:
+- Client risk questionnaire
+- Investment time horizon
+- Financial goals and objectives
+- Income and liquidity needs
+- Previous investment experience
+
+Portfolio Rebalancing Guidelines:
+- Quarterly portfolio review
+- 5% threshold rule for asset allocation
+- Tax-efficient rebalancing strategies
+- Cost-benefit analysis of trades
+- Market timing considerations
+
+Crisis Management Protocols:
+- Market crash response procedures
+- Client communication strategies
+- Portfolio protection techniques
+- Emergency asset liquidation plans
+- Regulatory reporting during crises
